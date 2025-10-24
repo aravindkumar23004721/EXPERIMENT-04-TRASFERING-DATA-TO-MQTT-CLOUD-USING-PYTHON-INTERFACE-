@@ -138,7 +138,7 @@ Run the Python script.
 
 Check if the message appears in the HiveMQ Web Client.
 ## PROGRAM
-```
+```py
 [
 import paho.mqtt.client as mqtt
 import time
