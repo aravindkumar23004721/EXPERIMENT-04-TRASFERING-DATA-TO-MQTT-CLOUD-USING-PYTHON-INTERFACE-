@@ -138,6 +138,7 @@ Run the Python script.
 
 Check if the message appears in the HiveMQ Web Client.
 ## PROGRAM
+```
 [
 import paho.mqtt.client as mqtt
 import time
@@ -163,7 +164,7 @@ while True:
     print(f"Published: {payload} -> {topic}")
     time.sleep(5)
 ]
-
+```
 ### OUTPUT SCREENSHOTS
 
 ![WhatsApp Image 2025-10-24 at 22 33 29_39aef2c7](https://github.com/user-attachments/assets/8a80dcc4-4250-4b38-9218-16e7b08b1b6f)
